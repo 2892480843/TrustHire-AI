@@ -1,0 +1,53 @@
+[
+  {
+    "name": "1280x720",
+    "width": 1280,
+    "height": 720,
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\after-cdp-1280x720.png",
+    "consoleErrors": [],
+    "metrics": {
+      "innerWidth": 1280,
+      "innerHeight": 720,
+      "scrollWidth": 1265,
+      "bodyScrollWidth": 1265,
+      "clientWidth": 1265,
+      "hasHorizontalOverflow": false,
+      "activeHeading": "招聘分析工作台",
+      "buttonOverflowCount": 0
+    }
+  },
+  {
+    "name": "1440x900",
+    "width": 1440,
+    "height": 900,
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\after-cdp-1440x900.png",
+    "consoleErrors": [],
+    "metrics": {
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "scrollWidth": 1425,
+      "bodyScrollWidth": 1425,
+      "clientWidth": 1425,
+      "hasHorizontalOverflow": false,
+      "activeHeading": "招聘分析工作台",
+      "buttonOverflowCount": 0
+    }
+  },
+  {
+    "name": "390x844",
+    "width": 390,
+    "height": 844,
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\after-cdp-390x844.png",
+    "consoleErrors": [],
+    "metrics": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "scrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "hasHorizontalOverflow": false,
+      "activeHeading": "招聘分析工作台",
+      "buttonOverflowCount": 0
+    }
+  }
+]

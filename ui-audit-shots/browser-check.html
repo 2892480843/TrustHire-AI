@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8"><script>window.__errors=[];window.addEventListener('error',e=>window.__errors.push(e.message));const s=document.createElement('script');s.src='http://localhost:5173/@vite/client';document.head.appendChild(s);</script><iframe src="http://localhost:5173" style="width:1px;height:1px;border:0"></iframe><script>
+(async () => {
+  const results = [];
+  for (const vp of [{name:'desktop-1280',w:1280,h:720},{name:'desktop-1440',w:1440,h:900},{name:'mobile-390',w:390,h:844}]) {
+    window.resizeTo(vp.w, vp.h);
+    await new Promise(r => setTimeout(r, 250));
+    results.push({
+      name: vp.name,
+      innerWidth: window.innerWidth,
+      scrollWidth: document.documentElement.scrollWidth,
+      bodyScrollWidth: document.body.scrollWidth,
+      overflow: document.documentElement.scrollWidth > window.innerWidth || document.body.scrollWidth > window.innerWidth,
+      title: document.title
+    });
+  }
+  document.body.innerText = JSON.stringify({errors: window.__errors || [], results}, null, 2);
+})();</script>

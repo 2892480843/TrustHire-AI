@@ -1,0 +1,139 @@
+[
+  {
+    "page": "dashboard",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review-populated\\desktop-1440x900-dashboard.png",
+    "metrics": {
+      "cards": 29,
+      "colored": 45,
+      "h1": "招聘分析工作台",
+      "h2": [
+        "Java 后端实习生",
+        "关键风险",
+        "任务式 Agent",
+        "招聘分析流程"
+      ],
+      "scrollHeight": 1468,
+      "viewportHeight": 900,
+      "visibleText": "智聘未来\nTrustHire AI\n仪表盘\nJD 解析\n简历分析\n证据链分析\n匹配评分\n面试任务\n匹配报告\n数据边界\n文件解析与模型调用在服务端执行，前端仅展示结构化结果。\n招聘分析工作台\n从岗位理解、简历解析、证据链到报告导出的本地全栈 AI 流程\n搜索功能\n企业级招聘工作台\n招聘分析工作台\n\n围绕岗位、简历、证据链和面试建议组织招聘决策，帮助 HR 快速判断候选人是否值得进入下一轮。\n\n开始 JD 解析\n使用样例数据（演示）\n当前项目\nJava 后端实习生\n\n候选人与 Java 后端实习生岗位整体匹配度较高，项目经历能支撑基础后端开发要求。\n\n待处理\n流程已完成\n可导出最终报告\n候选人\n张同学\n某某大学\n推荐结果\n建议进入一面\n82/100\n关键风险\n已识别风险\n6\n优先查看证据链和报告页，确认能力缺口是否影响进入下一轮。\n分析进度\n6/6\n\n已完成流程阶段\n\n待处理事项\n导出报告\n\n流程已经闭环\n\n候选人结果\n82\n\n综合匹配分\n\n数据边界\n服务端\n\n文件解析与模型调用\n\n任务式 Agent\nAgent JD 输入\n选择简历\n一键 Agent 分析\nAgent 任务进度\nJD 解",
+      "whiteSurfaces": 35
+    }
+  },
+  {
+    "page": "job",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review-populated\\desktop-1440x900-job.png",
+    "metrics": {
+      "cards": 16,
+      "colored": 32,
+      "h1": "岗位 JD 智能解析",
+      "h2": [
+        "岗位 JD 输入",
+        "岗位能力模型",
+        "Java 后端实习生",
+        "筛选建议"
+      ],
+      "scrollHeight": 1054,
+      "viewportHeight": 900,
+      "visibleText": "智聘未来\nTrustHire AI\n仪表盘\nJD 解析\n简历分析\n证据链分析\n匹配评分\n面试任务\n匹配报告\n数据边界\n文件解析与模型调用在服务端执行，前端仅展示结构化结果。\nJD 解析\n将岗位 JD 转换为结构化能力模型\n搜索功能\n企业级招聘工作台\n岗位 JD 智能解析\n\n调用后端 /api/analyze-job，将岗位描述转为结构化能力模型与筛选建议。\n\n岗位 JD 输入\n清空内容\n岗位 JD 输入\n输入越完整，能力模型越稳定\n261/3000\n解析岗位能力\n岗位能力模型\n权重合计 100%\n编程基础\nJava 基础\n语法、集合、多线程\n20%\n20%\n后端框架\nSpring Boot\n分层开发与常用组件\n25%\n25%\n数据库\nMySQL\nSQL 与表设计\n20%\n20%\n工程能力\n接口开发\nRESTful 与测试\n20%\n20%\n项目经验\n后端项目经验\n问题定位与交付\n15%\n15%\nJava 后端实习生\n\n参与后端接口开发、数据库设计与系统优化。\n\n工程实践导向\n具备后端基础和学习能力\n筛选建议\n1\n优先关注 Spring Boot 项目经验\n2\n面试验证数据库设计能力\n重试",
+      "whiteSurfaces": 18
+    }
+  },
+  {
+    "page": "resume",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review-populated\\desktop-1440x900-resume.png",
+    "metrics": {
+      "cards": 21,
+      "colored": 41,
+      "h1": "简历分析",
+      "h2": [
+        "候选人概览",
+        "结构化解析结果",
+        "风险点",
+        "结构化简历摘要"
+      ],
+      "scrollHeight": 1013,
+      "viewportHeight": 900,
+      "visibleText": "智聘未来\nTrustHire AI\n仪表盘\nJD 解析\n简历分析\n证据链分析\n匹配评分\n面试任务\n匹配报告\n数据边界\n文件解析与模型调用在服务端执行，前端仅展示结构化结果。\n简历分析\n上传 PDF / DOCX / TXT 简历并提取结构化候选人信息\n搜索功能\n企业级招聘工作台\n简历分析\n\n上传 PDF / DOCX / TXT 简历，提取候选人基础信息、项目经历、技能标签和风险点。\n\n候选人简历\n支持 PDF / DOCX / TXT，默认限制见 MAX_UPLOAD_MB\n上传简历\n使用样例数据（演示）\n等待上传真实简历\n候选人概览\n张\n姓名\n张同学\n学校\n某某大学\n专业\n软件工程\n学历\n本科\n目标岗位\nJava 后端实习生\n查看完整简历结构\n结构化解析结果\n教育背景\n2021.09 - 2025.06 某某大学 软件工程 本科\n技能标签\nJava\nSpring Boot\nMySQL\nRedis\nGit\n项目经历\n校园二手交易平台\n后端开发 · 2024.03 - 2024.06\n\n负责登录、商品发布和订单接口开发。\n\n风险点\nRedis 仅有较少项目细节\n部署经验描述不足\n结构化",
+      "whiteSurfaces": 25
+    }
+  },
+  {
+    "page": "evidence",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review-populated\\desktop-1440x900-evidence.png",
+    "metrics": {
+      "cards": 13,
+      "colored": 32,
+      "h1": "证据链分析",
+      "h2": [
+        "能力证据映射",
+        "风险提示",
+        "建议追问点",
+        "判断依据来自结构化证据，而不是关键词匹配"
+      ],
+      "scrollHeight": 973,
+      "viewportHeight": 900,
+      "visibleText": "智聘未来\nTrustHire AI\n仪表盘\nJD 解析\n简历分析\n证据链分析\n匹配评分\n面试任务\n匹配报告\n数据边界\n文件解析与模型调用在服务端执行，前端仅展示结构化结果。\n证据链分析\n把岗位能力要求与简历事实逐项对齐\n搜索功能\n企业级招聘工作台\n证据链分析\n\n把岗位能力要求与简历事实逐项对齐，生成可复核的证据映射、风险提示和追问点。\n\n能力证据链\n岗位：Java 后端实习生 · 候选人：张同学\n重新生成证据链\n能力证据映射\n能力项\t简历证据\t证据强度\t系统判断\nJava 基础\t计算机二级 Java，校园二手交易平台后端接口开发\t\n强证据\t能支撑 Java 基础与接口开发要求\nSpring Boot\t校园二手交易平台使用 Spring Boot 完成登录、商品发布和订单接口\t\n强证据\t与岗位后端框架要求高度相关\nMySQL\t项目涉及商品、订单等基础表设计\t\n中证据\t能支撑基础 SQL 与表设计，但需要面试追问索引和事务\nRedis\t简历仅列出 Redis 技能，项目细节较少\t\n弱证据\t需要通过面试验证真实使用场景\n风险提示\nRedis 只有技能标签，缺少缓存设计细节\n部署和线上问题定位",
+      "whiteSurfaces": 17
+    }
+  },
+  {
+    "page": "score",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review-populated\\desktop-1440x900-score.png",
+    "metrics": {
+      "cards": 19,
+      "colored": 37,
+      "h1": "人岗匹配评分",
+      "h2": [
+        "HR 决策建议",
+        "能力优势",
+        "主要短板"
+      ],
+      "scrollHeight": 1058,
+      "viewportHeight": 900,
+      "visibleText": "智聘未来\nTrustHire AI\n仪表盘\nJD 解析\n简历分析\n证据链分析\n匹配评分\n面试任务\n匹配报告\n数据边界\n文件解析与模型调用在服务端执行，前端仅展示结构化结果。\n匹配评分\n基于岗位、简历和证据链生成匹配分\n搜索功能\n企业级招聘工作台\n人岗匹配评分\n\n基于岗位模型、简历解析和证据链生成结构化评分，不从前端计算或解析自由文本。\n\n候选人：张同学 · 岗位：Java 后端实习生\n重新生成评分\n综合匹配度\n82\n/100\n推荐等级\n建议进入一面\n\n候选人与 Java 后端实习生岗位整体匹配度较高，项目经历能支撑基础后端开发要求。\n\nJava 基础\n86 /100\nSpring Boot\n84 /100\nMySQL\n78 /100\n项目相关性\n80 /100\n风险可控性\n74 /100\nHR 决策建议\n建议进入一面\n建议进入一面，重点追问接口设计、数据库事务、Redis 使用细节和项目真实性。\n能力优势\n优势\n\nJava 与 Spring Boot 项目证据较明确\n\n优势\n\n目标岗位与项目经历方向一致\n\n主要短板\n风险\n\nRedis 和部署经验证据偏弱\n\n风险\n\n线上问题定位经历需要",
+      "whiteSurfaces": 21
+    }
+  },
+  {
+    "page": "interview",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review-populated\\desktop-1440x900-interview.png",
+    "metrics": {
+      "cards": 12,
+      "colored": 35,
+      "h1": "面试任务",
+      "h2": [
+        "请说明校园二手交易平台中登录接口的鉴权流程，以及如何处理异常返回。",
+        "商品发布到订单创建的核心表结构是什么？订单状态流转如何设计？",
+        "现场设计一个创建订单 API，说明请求参数、幂等处理和事务边界。",
+        "你在项目里如何使用 Redis？如果缓存和数据库不一致，你会如何处理？",
+        "面试官记录",
+        "任务生成依据"
+      ],
+      "scrollHeight": 1456,
+      "viewportHeight": 900,
+      "visibleText": "智聘未来\nTrustHire AI\n仪表盘\nJD 解析\n简历分析\n证据链分析\n匹配评分\n面试任务\n匹配报告\n数据边界\n文件解析与模型调用在服务端执行，前端仅展示结构化结果。\n面试任务\n按风险和能力缺口生成面试任务\n搜索功能\n企业级招聘工作台\n面试任务\n\n基于匹配评分和证据链生成结构化面试问题、考察点与记录入口。\n\n张同学\n本科 | 软件工程\n目标岗位\nJava 后端实习生\n匹配得分\n82%\n重新生成任务\n1\n技术追问\n2\n项目核验\n3\n实操任务\n4\n风险追问\n1\n请说明校园二手交易平台中登录接口的鉴权流程，以及如何处理异常返回。\n考察点：接口设计与 Java 后端基础\n依据：岗位要求 RESTful 接口开发，简历中有登录接口经历\n难度：中等\n8 分钟\n2\n商品发布到订单创建的核心表结构是什么？订单状态流转如何设计？\n考察点：项目真实性与数据库设计\n依据：简历提到商品发布和订单接口，但数据库细节不足\n难度：中等\n8 分钟\n3\n现场设计一个创建订单 API，说明请求参数、幂等处理和事务边界。\n考察点：后端建模与工程实现\n依据：岗位要求接口开发和系统稳定性\n难度：较高\n15 分钟\n4\n你在",
+      "whiteSurfaces": 21
+    }
+  },
+  {
+    "page": "report",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review-populated\\desktop-1440x900-report.png",
+    "metrics": {
+      "cards": 12,
+      "colored": 31,
+      "h1": "HR 匹配报告",
+      "h2": [
+        "张同学",
+        "核心优势",
+        "主要风险",
+        "能力缺口",
+        "面试建议",
+        "最终建议",
+        "岗位匹配摘要"
+      ],
+      "scrollHeight": 1134,
+      "viewportHeight": 900,
+      "visibleText": "智聘未来\nTrustHire AI\n仪表盘\nJD 解析\n简历分析\n证据链分析\n匹配评分\n面试任务\n匹配报告\n数据边界\n文件解析与模型调用在服务端执行，前端仅展示结构化结果。\n匹配报告\n生成 HR 可读的结构化匹配报告并导出 Markdown\n搜索功能\n企业级招聘工作台\nHR 匹配报告\n\n基于全流程结构化结果生成，可导出 Markdown 文件。\n\n重新生成报告\n导出 Markdown\n分享报告\n张同学\n某某大学\n软件工程\n目标岗位：Java 后端实习生\n综合匹配度\n82 /100\n推荐等级\n建议进入一面\n核心优势\nJava 与 Spring Boot 项目证据较明确\n项目方向与岗位职责匹配\n具备基础数据库设计经历\n主要风险\nRedis 使用细节不足\n部署和线上问题定位经验需要核验\n能力缺口\n缓存一致性实践\n复杂 SQL 优化经验\n生产环境排障经验\n面试建议\n优先验证项目真实性\n追问订单 API 的事务边界\n通过 Redis 场景题确认技能深度\n最终建议\n建议进入一面，面试重点放在接口设计、数据库事务和 Redis 真实使用经验。\n岗位匹配摘要\n82\n%\nJava 基础\n86 /100\n",
+      "whiteSurfaces": 20
+    }
+  }
+]

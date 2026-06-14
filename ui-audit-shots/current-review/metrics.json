@@ -1,0 +1,3272 @@
+[
+  {
+    "viewport": "desktop-1440x900",
+    "page": "dashboard",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1440x900-dashboard.png",
+    "metrics": {
+      "bodyHeight": 1468,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "开始 JD 解析",
+          "w": 152
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "使用样例数据（演示）",
+          "w": 220
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "选择简历",
+          "w": 124
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "一键 Agent 分析",
+          "w": 179
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "JD 解析待生成",
+          "w": 171
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "简历分析待生成",
+          "w": 171
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "证据链待生成",
+          "w": 171
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "匹配评分待生成",
+          "w": 171
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "面试任务待生成",
+          "w": 171
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "匹配报告待生成",
+          "w": 171
+        }
+      ],
+      "cards": 28,
+      "clientWidth": 1425,
+      "emerald": 34,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "招聘分析工作台",
+          "w": 686,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "mt-4 text-2xl font-black text-stone-950 sm:text-3xl",
+          "h": 36,
+          "tag": "H2",
+          "text": "Java 后端实习生招聘",
+          "w": 384,
+          "x": 293,
+          "y": 354
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "关键风险",
+          "w": 56,
+          "x": 978,
+          "y": 309
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "任务式 Agent",
+          "w": 89,
+          "x": 293,
+          "y": 791
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "招聘分析流程",
+          "w": 84,
+          "x": 293,
+          "y": 1257
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        },
+        {
+          "alt": "TrustHire AI 招聘分析工作台",
+          "h": 176,
+          "src": "/images/dashboard-hero.png",
+          "w": 220
+        }
+      ],
+      "scrollWidth": 1425,
+      "title": "招聘分析工作台",
+      "viewportHeight": 900,
+      "whiteSurfaces": 34
+    }
+  },
+  {
+    "viewport": "desktop-1440x900",
+    "page": "job",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1440x900-job.png",
+    "metrics": {
+      "bodyHeight": 900,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        },
+        {
+          "h": 32,
+          "label": null,
+          "text": "清空内容",
+          "w": 80
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "解析岗位能力",
+          "w": 534
+        }
+      ],
+      "cards": 8,
+      "clientWidth": 1440,
+      "emerald": 24,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "岗位 JD 智能解析",
+          "w": 531,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "岗位 JD 输入",
+          "w": 82,
+          "x": 293,
+          "y": 291
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "岗位能力模型",
+          "w": 84,
+          "x": 889,
+          "y": 285
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        },
+        {
+          "alt": "等待生成岗位能力模型",
+          "h": 96,
+          "src": "/images/empty-analysis.png",
+          "w": 96
+        }
+      ],
+      "scrollWidth": 1440,
+      "title": "岗位 JD 智能解析",
+      "viewportHeight": 900,
+      "whiteSurfaces": 16
+    }
+  },
+  {
+    "viewport": "desktop-1440x900",
+    "page": "resume",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1440x900-resume.png",
+    "metrics": {
+      "bodyHeight": 900,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "上传简历",
+          "w": 124
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "使用样例数据（演示）",
+          "w": 220
+        }
+      ],
+      "cards": 9,
+      "clientWidth": 1440,
+      "emerald": 23,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "简历分析",
+          "w": 612,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "结构化解析结果",
+          "w": 98,
+          "x": 293,
+          "y": 454
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        }
+      ],
+      "scrollWidth": 1440,
+      "title": "简历分析",
+      "viewportHeight": 900,
+      "whiteSurfaces": 15
+    }
+  },
+  {
+    "viewport": "desktop-1440x900",
+    "page": "evidence",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1440x900-evidence.png",
+    "metrics": {
+      "bodyHeight": 900,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        }
+      ],
+      "cards": 7,
+      "clientWidth": 1440,
+      "emerald": 21,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "证据链分析",
+          "w": 592,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "证据链分析",
+          "w": 70,
+          "x": 293,
+          "y": 285
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        }
+      ],
+      "scrollWidth": 1440,
+      "title": "证据链分析",
+      "viewportHeight": 900,
+      "whiteSurfaces": 13
+    }
+  },
+  {
+    "viewport": "desktop-1440x900",
+    "page": "score",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1440x900-score.png",
+    "metrics": {
+      "bodyHeight": 900,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        }
+      ],
+      "cards": 7,
+      "clientWidth": 1440,
+      "emerald": 21,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "人岗匹配评分",
+          "w": 592,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "匹配评分",
+          "w": 56,
+          "x": 293,
+          "y": 285
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        }
+      ],
+      "scrollWidth": 1440,
+      "title": "人岗匹配评分",
+      "viewportHeight": 900,
+      "whiteSurfaces": 13
+    }
+  },
+  {
+    "viewport": "desktop-1440x900",
+    "page": "interview",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1440x900-interview.png",
+    "metrics": {
+      "bodyHeight": 900,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        }
+      ],
+      "cards": 7,
+      "clientWidth": 1440,
+      "emerald": 21,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "面试任务",
+          "w": 464,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "面试任务",
+          "w": 56,
+          "x": 293,
+          "y": 285
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        }
+      ],
+      "scrollWidth": 1440,
+      "title": "面试任务",
+      "viewportHeight": 900,
+      "whiteSurfaces": 13
+    }
+  },
+  {
+    "viewport": "desktop-1440x900",
+    "page": "report",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1440x900-report.png",
+    "metrics": {
+      "bodyHeight": 900,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        }
+      ],
+      "cards": 7,
+      "clientWidth": 1440,
+      "emerald": 21,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "HR 匹配报告",
+          "w": 395,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "匹配报告",
+          "w": 56,
+          "x": 293,
+          "y": 285
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        },
+        {
+          "alt": "HR 匹配报告封面",
+          "h": 128,
+          "src": "/images/report-cover.png",
+          "w": 180
+        }
+      ],
+      "scrollWidth": 1440,
+      "title": "HR 匹配报告",
+      "viewportHeight": 900,
+      "whiteSurfaces": 13
+    }
+  },
+  {
+    "viewport": "desktop-1280x720",
+    "page": "dashboard",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1280x720-dashboard.png",
+    "metrics": {
+      "bodyHeight": 1468,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "开始 JD 解析",
+          "w": 152
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "使用样例数据（演示）",
+          "w": 220
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "选择简历",
+          "w": 124
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "一键 Agent 分析",
+          "w": 179
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "JD 解析待生成",
+          "w": 145
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "简历分析待生成",
+          "w": 145
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "证据链待生成",
+          "w": 145
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "匹配评分待生成",
+          "w": 145
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "面试任务待生成",
+          "w": 145
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "匹配报告待生成",
+          "w": 145
+        }
+      ],
+      "cards": 28,
+      "clientWidth": 1265,
+      "emerald": 34,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "招聘分析工作台",
+          "w": 582,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "mt-4 text-2xl font-black text-stone-950 sm:text-3xl",
+          "h": 36,
+          "tag": "H2",
+          "text": "Java 后端实习生招聘",
+          "w": 288,
+          "x": 293,
+          "y": 354
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "关键风险",
+          "w": 56,
+          "x": 882,
+          "y": 309
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "任务式 Agent",
+          "w": 89,
+          "x": 293,
+          "y": 791
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "招聘分析流程",
+          "w": 84,
+          "x": 293,
+          "y": 1257
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        },
+        {
+          "alt": "TrustHire AI 招聘分析工作台",
+          "h": 176,
+          "src": "/images/dashboard-hero.png",
+          "w": 220
+        }
+      ],
+      "scrollWidth": 1265,
+      "title": "招聘分析工作台",
+      "viewportHeight": 720,
+      "whiteSurfaces": 34
+    }
+  },
+  {
+    "viewport": "desktop-1280x720",
+    "page": "job",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1280x720-job.png",
+    "metrics": {
+      "bodyHeight": 766,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        },
+        {
+          "h": 32,
+          "label": null,
+          "text": "清空内容",
+          "w": 80
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "解析岗位能力",
+          "w": 444
+        }
+      ],
+      "cards": 8,
+      "clientWidth": 1265,
+      "emerald": 24,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "岗位 JD 智能解析",
+          "w": 531,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "岗位 JD 输入",
+          "w": 82,
+          "x": 293,
+          "y": 291
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "岗位能力模型",
+          "w": 84,
+          "x": 799,
+          "y": 285
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        },
+        {
+          "alt": "等待生成岗位能力模型",
+          "h": 96,
+          "src": "/images/empty-analysis.png",
+          "w": 96
+        }
+      ],
+      "scrollWidth": 1265,
+      "title": "岗位 JD 智能解析",
+      "viewportHeight": 720,
+      "whiteSurfaces": 16
+    }
+  },
+  {
+    "viewport": "desktop-1280x720",
+    "page": "resume",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1280x720-resume.png",
+    "metrics": {
+      "bodyHeight": 720,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "上传简历",
+          "w": 124
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "使用样例数据（演示）",
+          "w": 220
+        }
+      ],
+      "cards": 9,
+      "clientWidth": 1280,
+      "emerald": 23,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "简历分析",
+          "w": 612,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "结构化解析结果",
+          "w": 98,
+          "x": 293,
+          "y": 454
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        }
+      ],
+      "scrollWidth": 1280,
+      "title": "简历分析",
+      "viewportHeight": 720,
+      "whiteSurfaces": 15
+    }
+  },
+  {
+    "viewport": "desktop-1280x720",
+    "page": "evidence",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1280x720-evidence.png",
+    "metrics": {
+      "bodyHeight": 720,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        }
+      ],
+      "cards": 7,
+      "clientWidth": 1280,
+      "emerald": 21,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "证据链分析",
+          "w": 592,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "证据链分析",
+          "w": 70,
+          "x": 293,
+          "y": 285
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        }
+      ],
+      "scrollWidth": 1280,
+      "title": "证据链分析",
+      "viewportHeight": 720,
+      "whiteSurfaces": 13
+    }
+  },
+  {
+    "viewport": "desktop-1280x720",
+    "page": "score",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1280x720-score.png",
+    "metrics": {
+      "bodyHeight": 720,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        }
+      ],
+      "cards": 7,
+      "clientWidth": 1280,
+      "emerald": 21,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "人岗匹配评分",
+          "w": 592,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "匹配评分",
+          "w": 56,
+          "x": 293,
+          "y": 285
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        }
+      ],
+      "scrollWidth": 1280,
+      "title": "人岗匹配评分",
+      "viewportHeight": 720,
+      "whiteSurfaces": 13
+    }
+  },
+  {
+    "viewport": "desktop-1280x720",
+    "page": "interview",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1280x720-interview.png",
+    "metrics": {
+      "bodyHeight": 720,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        }
+      ],
+      "cards": 7,
+      "clientWidth": 1280,
+      "emerald": 21,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "面试任务",
+          "w": 464,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "面试任务",
+          "w": 56,
+          "x": 293,
+          "y": 285
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        }
+      ],
+      "scrollWidth": 1280,
+      "title": "面试任务",
+      "viewportHeight": 720,
+      "whiteSurfaces": 13
+    }
+  },
+  {
+    "viewport": "desktop-1280x720",
+    "page": "report",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\desktop-1280x720-report.png",
+    "metrics": {
+      "bodyHeight": 720,
+      "buttons": [
+        {
+          "h": 44,
+          "label": null,
+          "text": "仪表盘",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "JD 解析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "简历分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "证据链分析",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配评分",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "面试任务",
+          "w": 215
+        },
+        {
+          "h": 44,
+          "label": null,
+          "text": "匹配报告",
+          "w": 215
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        }
+      ],
+      "cards": 7,
+      "clientWidth": 1280,
+      "emerald": 21,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 36,
+          "tag": "H1",
+          "text": "HR 匹配报告",
+          "w": 395,
+          "x": 297,
+          "y": 155
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "匹配报告",
+          "w": 56,
+          "x": 293,
+          "y": 285
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 44,
+          "src": "/images/brand-mark.png",
+          "w": 44
+        },
+        {
+          "alt": "HR 匹配报告封面",
+          "h": 128,
+          "src": "/images/report-cover.png",
+          "w": 180
+        }
+      ],
+      "scrollWidth": 1280,
+      "title": "HR 匹配报告",
+      "viewportHeight": 720,
+      "whiteSurfaces": 13
+    }
+  },
+  {
+    "viewport": "mobile-390x844",
+    "page": "dashboard",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\mobile-390x844-dashboard.png",
+    "metrics": {
+      "bodyHeight": 3619,
+      "buttons": [
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "仪表盘",
+          "w": 97
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "JD 解析",
+          "w": 104
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "简历分析",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "证据链分析",
+          "w": 129
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配评分",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "面试任务",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配报告",
+          "w": 113
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "开始 JD 解析",
+          "w": 302
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "使用样例数据（演示）",
+          "w": 302
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "选择简历",
+          "w": 124
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "一键 Agent 分析",
+          "w": 179
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "JD 解析待生成",
+          "w": 302
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "简历分析待生成",
+          "w": 302
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "证据链待生成",
+          "w": 302
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "匹配评分待生成",
+          "w": 302
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "面试任务待生成",
+          "w": 302
+        },
+        {
+          "h": 114,
+          "label": null,
+          "text": "匹配报告待生成",
+          "w": 302
+        }
+      ],
+      "cards": 28,
+      "clientWidth": 375,
+      "emerald": 34,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 32,
+          "tag": "H1",
+          "text": "招聘分析工作台",
+          "w": 302,
+          "x": 37,
+          "y": 206
+        },
+        {
+          "cls": "mt-4 text-2xl font-black text-stone-950 sm:text-3xl",
+          "h": 32,
+          "tag": "H2",
+          "text": "Java 后端实习生招聘",
+          "w": 302,
+          "x": 37,
+          "y": 549
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "关键风险",
+          "w": 56,
+          "x": 37,
+          "y": 1059
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "任务式 Agent",
+          "w": 89,
+          "x": 37,
+          "y": 1969
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "招聘分析流程",
+          "w": 84,
+          "x": 37,
+          "y": 2784
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 0,
+          "src": "/images/brand-mark.png",
+          "w": 0
+        },
+        {
+          "alt": "TrustHire AI 招聘分析工作台",
+          "h": 0,
+          "src": "/images/dashboard-hero.png",
+          "w": 0
+        }
+      ],
+      "scrollWidth": 375,
+      "title": "招聘分析工作台",
+      "viewportHeight": 844,
+      "whiteSurfaces": 34
+    }
+  },
+  {
+    "viewport": "mobile-390x844",
+    "page": "job",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\mobile-390x844-job.png",
+    "metrics": {
+      "bodyHeight": 1137,
+      "buttons": [
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "仪表盘",
+          "w": 97
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "JD 解析",
+          "w": 104
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "简历分析",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "证据链分析",
+          "w": 129
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配评分",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "面试任务",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配报告",
+          "w": 113
+        },
+        {
+          "h": 32,
+          "label": null,
+          "text": "清空内容",
+          "w": 80
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "解析岗位能力",
+          "w": 302
+        }
+      ],
+      "cards": 8,
+      "clientWidth": 375,
+      "emerald": 24,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 32,
+          "tag": "H1",
+          "text": "岗位 JD 智能解析",
+          "w": 302,
+          "x": 37,
+          "y": 206
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "岗位 JD 输入",
+          "w": 82,
+          "x": 37,
+          "y": 362
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "岗位能力模型",
+          "w": 84,
+          "x": 37,
+          "y": 854
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 0,
+          "src": "/images/brand-mark.png",
+          "w": 0
+        },
+        {
+          "alt": "等待生成岗位能力模型",
+          "h": 0,
+          "src": "/images/empty-analysis.png",
+          "w": 0
+        }
+      ],
+      "scrollWidth": 375,
+      "title": "岗位 JD 智能解析",
+      "viewportHeight": 844,
+      "whiteSurfaces": 16
+    }
+  },
+  {
+    "viewport": "mobile-390x844",
+    "page": "resume",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\mobile-390x844-resume.png",
+    "metrics": {
+      "bodyHeight": 930,
+      "buttons": [
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "仪表盘",
+          "w": 97
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "JD 解析",
+          "w": 104
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "简历分析",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "证据链分析",
+          "w": 129
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配评分",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "面试任务",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配报告",
+          "w": 113
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "上传简历",
+          "w": 302
+        },
+        {
+          "h": 46,
+          "label": null,
+          "text": "使用样例数据（演示）",
+          "w": 302
+        }
+      ],
+      "cards": 9,
+      "clientWidth": 375,
+      "emerald": 23,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 32,
+          "tag": "H1",
+          "text": "简历分析",
+          "w": 302,
+          "x": 37,
+          "y": 206
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "结构化解析结果",
+          "w": 98,
+          "x": 37,
+          "y": 662
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 0,
+          "src": "/images/brand-mark.png",
+          "w": 0
+        }
+      ],
+      "scrollWidth": 375,
+      "title": "简历分析",
+      "viewportHeight": 844,
+      "whiteSurfaces": 15
+    }
+  },
+  {
+    "viewport": "mobile-390x844",
+    "page": "evidence",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\mobile-390x844-evidence.png",
+    "metrics": {
+      "bodyHeight": 844,
+      "buttons": [
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "仪表盘",
+          "w": 97
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "JD 解析",
+          "w": 104
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "简历分析",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "证据链分析",
+          "w": 129
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配评分",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "面试任务",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配报告",
+          "w": 113
+        }
+      ],
+      "cards": 7,
+      "clientWidth": 390,
+      "emerald": 21,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 32,
+          "tag": "H1",
+          "text": "证据链分析",
+          "w": 317,
+          "x": 37,
+          "y": 206
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "证据链分析",
+          "w": 70,
+          "x": 37,
+          "y": 356
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 0,
+          "src": "/images/brand-mark.png",
+          "w": 0
+        }
+      ],
+      "scrollWidth": 390,
+      "title": "证据链分析",
+      "viewportHeight": 844,
+      "whiteSurfaces": 13
+    }
+  },
+  {
+    "viewport": "mobile-390x844",
+    "page": "score",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\mobile-390x844-score.png",
+    "metrics": {
+      "bodyHeight": 844,
+      "buttons": [
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "仪表盘",
+          "w": 97
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "JD 解析",
+          "w": 104
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "简历分析",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "证据链分析",
+          "w": 129
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配评分",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "面试任务",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配报告",
+          "w": 113
+        }
+      ],
+      "cards": 7,
+      "clientWidth": 390,
+      "emerald": 21,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 32,
+          "tag": "H1",
+          "text": "人岗匹配评分",
+          "w": 317,
+          "x": 37,
+          "y": 206
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "匹配评分",
+          "w": 56,
+          "x": 37,
+          "y": 356
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 0,
+          "src": "/images/brand-mark.png",
+          "w": 0
+        }
+      ],
+      "scrollWidth": 390,
+      "title": "人岗匹配评分",
+      "viewportHeight": 844,
+      "whiteSurfaces": 13
+    }
+  },
+  {
+    "viewport": "mobile-390x844",
+    "page": "interview",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\mobile-390x844-interview.png",
+    "metrics": {
+      "bodyHeight": 844,
+      "buttons": [
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "仪表盘",
+          "w": 97
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "JD 解析",
+          "w": 104
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "简历分析",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "证据链分析",
+          "w": 129
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配评分",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "面试任务",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配报告",
+          "w": 113
+        }
+      ],
+      "cards": 7,
+      "clientWidth": 390,
+      "emerald": 21,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 32,
+          "tag": "H1",
+          "text": "面试任务",
+          "w": 317,
+          "x": 37,
+          "y": 206
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "面试任务",
+          "w": 56,
+          "x": 37,
+          "y": 356
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 0,
+          "src": "/images/brand-mark.png",
+          "w": 0
+        }
+      ],
+      "scrollWidth": 390,
+      "title": "面试任务",
+      "viewportHeight": 844,
+      "whiteSurfaces": 13
+    }
+  },
+  {
+    "viewport": "mobile-390x844",
+    "page": "report",
+    "shotPath": "E:\\dy\\1\\智聘未来\\ui-audit-shots\\current-review\\mobile-390x844-report.png",
+    "metrics": {
+      "bodyHeight": 844,
+      "buttons": [
+        {
+          "h": 0,
+          "label": null,
+          "text": "仪表盘",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "JD 解析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "简历分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "证据链分析",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配评分",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "面试任务",
+          "w": 0
+        },
+        {
+          "h": 0,
+          "label": null,
+          "text": "匹配报告",
+          "w": 0
+        },
+        {
+          "h": 40,
+          "label": "通知",
+          "text": "",
+          "w": 40
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "仪表盘",
+          "w": 97
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "JD 解析",
+          "w": 104
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "简历分析",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "证据链分析",
+          "w": 129
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配评分",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "面试任务",
+          "w": 113
+        },
+        {
+          "h": 36,
+          "label": null,
+          "text": "匹配报告",
+          "w": 113
+        }
+      ],
+      "cards": 7,
+      "clientWidth": 390,
+      "emerald": 21,
+      "hasHorizontalOverflow": false,
+      "headingRects": [
+        {
+          "cls": "font-black tracking-normal text-stone-950 text-2xl sm:text-3xl",
+          "h": 32,
+          "tag": "H1",
+          "text": "HR 匹配报告",
+          "w": 317,
+          "x": 37,
+          "y": 206
+        },
+        {
+          "cls": "text-sm font-bold text-stone-950",
+          "h": 20,
+          "tag": "H2",
+          "text": "匹配报告",
+          "w": 56,
+          "x": 37,
+          "y": 356
+        }
+      ],
+      "images": [
+        {
+          "alt": "智聘未来品牌标识",
+          "h": 0,
+          "src": "/images/brand-mark.png",
+          "w": 0
+        },
+        {
+          "alt": "HR 匹配报告封面",
+          "h": 128,
+          "src": "/images/report-cover.png",
+          "w": 317
+        }
+      ],
+      "scrollWidth": 390,
+      "title": "HR 匹配报告",
+      "viewportHeight": 844,
+      "whiteSurfaces": 13
+    }
+  }
+]

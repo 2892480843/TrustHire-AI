@@ -1,0 +1,45 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+server/uploads/
+uploads/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+vitest.config.js
+vitest.config.d.ts
+
+# 音视频大文件
+*.mp3
+*.wav
+*.mp4
+
+# 录制相关脚本和文档
+gen_voice.py
+录屏控制.py
+合成视频.py
+全自动录制.py
+开始录制.py
+开始录屏.py
+重新录制.py
+speech.txt
+录制操作手册.md
+
+# 进程 PID 文件
+.server.pid
+.vite.pid
+
+# 日志和调试文件
+*.log
+bash.exe.stackdump
+
+# 生成文件和截图
+output/
+demo-screenshots/
+preview-v2/
+preview-v3/
+
+# AI 内部工作文件
+.claude/
