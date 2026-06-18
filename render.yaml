@@ -1,0 +1,36 @@
+# Render Blueprint — deploys the TrustHire AI backend (Express API).
+# The frontend is served separately by GitHub Pages; this hosts only the API
+# that the Pages site calls (DeepSeek analysis, resume parsing, agent jobs).
+#
+# Deploy: Render Dashboard → New → Blueprint → connect this GitHub repo.
+# You will be prompted for OPENAI_API_KEY — paste your DeepSeek API key there.
+# After it goes live, set the GitHub repo variable VITE_API_BASE_URL to the
+# service URL (https://<name>.onrender.com) so the Pages frontend can reach it.
+services:
+  - type: web
+    name: trusthire-ai-api
+    runtime: node
+    plan: free
+    region: singapore
+    # --include=dev so tsx (used to run the TypeScript server) is installed
+    # even though Render sets NODE_ENV=production.
+    buildCommand: npm install --include=dev
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      # The GitHub Pages origin allowed by CORS (scheme + host, no path).
+      - key: CORS_ORIGIN
+        value: https://2892480843.github.io
+      - key: OPENAI_BASE_URL
+        value: https://api.deepseek.com
+      - key: OPENAI_MODEL
+        value: deepseek-chat
+      # puppeteer is only used by local PPT/screenshot scripts, never by the
+      # server — skip the heavy Chromium download during install.
+      - key: PUPPETEER_SKIP_DOWNLOAD
+        value: "true"
+      # Secret — Render prompts for this on deploy (not stored in the repo).
+      - key: OPENAI_API_KEY
+        sync: false
