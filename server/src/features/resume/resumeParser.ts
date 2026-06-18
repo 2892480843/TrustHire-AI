@@ -1,5 +1,9 @@
 import mammoth from "mammoth";
-import pdf from "pdf-parse";
+// Import the inner module directly. pdf-parse's index.js runs debug code at
+// import time (reads a bundled test PDF) when module.parent is unset, which
+// crashes under native Node ESM. lib/pdf-parse.js has no such block.
+// @ts-ignore - the internal entrypoint has no bundled type declaration
+import pdf from "pdf-parse/lib/pdf-parse.js";
 import { UnsupportedFileTypeError, ValidationAppError } from "../../errors.js";
 
 const txtTypes = new Set(["text/plain", "application/octet-stream"]);

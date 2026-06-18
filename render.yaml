@@ -13,10 +13,12 @@ services:
     runtime: node
     plan: free
     region: singapore
-    # --include=dev so tsx (used to run the TypeScript server) is installed
-    # even though Render sets NODE_ENV=production.
-    buildCommand: npm install --include=dev
-    startCommand: npm start
+    # Compile the TS server to JS at build time (typescript is a devDep, so
+    # --include=dev installs it even though Render sets NODE_ENV=production),
+    # then run plain `node`. Avoids keeping tsx + esbuild resident at runtime,
+    # which matters on the 512 MB free tier where document parsing is tight.
+    buildCommand: npm install --include=dev && npm run build:render
+    startCommand: node server/dist/index.js
     healthCheckPath: /health
     envVars:
       - key: NODE_VERSION

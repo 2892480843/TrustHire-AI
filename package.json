@@ -10,6 +10,7 @@
     "start": "tsx server/src/index.ts",
     "build": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.node.json && vite build",
     "build:server": "tsc --noEmit -p server/tsconfig.json",
+    "build:render": "tsc -p server/tsconfig.build.json",
     "test": "vitest run",
     "test:server": "vitest run -c server/vitest.config.ts",
     "test:watch": "vitest"
