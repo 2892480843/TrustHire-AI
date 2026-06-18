@@ -8,7 +8,8 @@
 # service URL (https://<name>.onrender.com) so the Pages frontend can reach it.
 services:
   - type: web
-    name: trusthire-ai-api
+    # Globally-unique name → predictable URL https://<name>.onrender.com
+    name: trusthire-ai-2892480843
     runtime: node
     plan: free
     region: singapore
