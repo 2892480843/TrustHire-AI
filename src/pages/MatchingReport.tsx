@@ -8,6 +8,7 @@ import { ScoreRing } from "../components/ui/ScoreRing";
 import { getErrorMessage } from "../services/apiClient";
 import { generateMatchReport } from "../services/analysisService";
 import { useAnalysisFlow } from "../state/AnalysisFlowContext";
+import { asset } from "../utils/asset";
 import { exportMarkdownReport } from "../utils/reportExport";
 import { getSharedReport, saveSharedReport } from "../utils/sharedReports";
 
@@ -76,7 +77,7 @@ export function MatchingReport({ onToast, reportId }: { onToast: (message: strin
         <Card title="本地分享报告" variant="panel">
           <div className="grid gap-5 p-5 text-sm leading-6 text-slate-600 md:grid-cols-[180px_1fr] md:items-center">
             <img
-              src="/images/report-cover.png"
+              src={asset("images/report-cover.png")}
               alt="HR 匹配报告封面"
               width={1536}
               height={1024}
@@ -101,7 +102,7 @@ export function MatchingReport({ onToast, reportId }: { onToast: (message: strin
         <Card title="匹配报告" variant="panel">
           <div className="grid gap-5 p-5 text-sm leading-6 text-slate-600 md:grid-cols-[180px_1fr] md:items-center">
             <img
-              src="/images/report-cover.png"
+              src={asset("images/report-cover.png")}
               alt="HR 匹配报告封面"
               width={1536}
               height={1024}
@@ -147,7 +148,7 @@ export function MatchingReport({ onToast, reportId }: { onToast: (message: strin
         <Card title="等待生成" variant="panel">
           <div className="grid gap-5 p-5 text-sm leading-6 text-slate-600 md:grid-cols-[180px_1fr] md:items-center">
             <img
-              src="/images/report-cover.png"
+              src={asset("images/report-cover.png")}
               alt="HR 匹配报告封面"
               width={1536}
               height={1024}

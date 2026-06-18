@@ -30,6 +30,7 @@ import { getErrorMessage } from "../services/apiClient";
 import { getAgentJob, startAgentJob } from "../services/analysisService";
 import { validateReadableTextResume } from "../services/resumeFileValidation";
 import { useAnalysisFlow } from "../state/AnalysisFlowContext";
+import { asset } from "../utils/asset";
 import type { AgentJob, AgentStage, PageKey } from "../types";
 
 const steps: Array<{ key: keyof ReturnType<typeof useAnalysisFlow>; label: string; page: PageKey }> = [
@@ -362,7 +363,7 @@ export function Dashboard({
         <nav aria-label="产品导航" className="relative z-10 flex flex-col gap-3 rounded-[2rem] bg-white/45 px-4 py-2.5 shadow-[inset_8px_8px_18px_rgba(157,170,180,0.08),inset_-10px_-10px_20px_rgba(255,255,255,0.62)] sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">
             <img
-              src="/images/brand-mark.png"
+              src={asset("images/brand-mark.png")}
               alt=""
               aria-hidden="true"
               width={512}
@@ -487,7 +488,7 @@ export function Dashboard({
               <div className="grid gap-3 sm:grid-cols-[0.86fr_1.14fr]">
                 <div className="relative overflow-hidden rounded-[2rem] bg-[#eaf8f1] p-3 shadow-[inset_8px_8px_16px_rgba(104,142,124,0.12),inset_-8px_-8px_18px_rgba(255,255,255,0.7)]">
                   <img
-                    src="/images/dashboard-hero.png"
+                    src={asset("images/dashboard-hero.png")}
                     alt="TrustHire AI 招聘分析工作台"
                     width={1536}
                     height={1024}

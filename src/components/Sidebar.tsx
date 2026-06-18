@@ -1,4 +1,5 @@
 import { navItems } from "../data/mockData";
+import { asset } from "../utils/asset";
 import type { PageKey } from "../types";
 
 export function Sidebar({
@@ -15,7 +16,7 @@ export function Sidebar({
 
       <div className="relative mb-8 flex items-center gap-3 rounded-[1.7rem] bg-white/58 p-2.5 shadow-[10px_12px_26px_rgba(122,143,138,0.12),-7px_-7px_18px_rgba(255,255,255,0.82),inset_5px_5px_12px_rgba(154,166,164,0.07),inset_-6px_-6px_14px_rgba(255,255,255,0.76)]">
         <img
-          src="/images/brand-mark.png"
+          src={asset("images/brand-mark.png")}
           alt="智聘未来品牌标识"
           width={512}
           height={512}

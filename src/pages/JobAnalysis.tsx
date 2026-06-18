@@ -10,6 +10,7 @@ import { sampleJd } from "../data/mockData";
 import { getErrorMessage } from "../services/apiClient";
 import { analyzeJobDescription } from "../services/analysisService";
 import { useAnalysisFlow } from "../state/AnalysisFlowContext";
+import { asset } from "../utils/asset";
 
 export function JobAnalysis({ onToast }: { onToast: (message: string) => void }) {
   const { jobAnalysis, setJobAnalysis } = useAnalysisFlow();
@@ -109,7 +110,7 @@ export function JobAnalysis({ onToast }: { onToast: (message: string) => void })
                 value="把自由文本 JD 转成可评分的人才画像"
                 action={
                   <img
-                    src="/images/empty-analysis.png"
+                    src={asset("images/empty-analysis.png")}
                     alt="等待生成岗位能力模型"
                     width={1024}
                     height={1024}
